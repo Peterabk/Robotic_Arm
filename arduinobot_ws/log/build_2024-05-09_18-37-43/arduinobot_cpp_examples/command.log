@@ -1,0 +1,2 @@
+Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20
+Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20

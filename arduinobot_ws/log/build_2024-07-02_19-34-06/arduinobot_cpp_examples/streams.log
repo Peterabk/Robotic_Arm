@@ -1,0 +1,12 @@
+[0.210s] Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples': AMENT_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20
+[0.241s] [35m[1mConsolidate compiler generated dependencies of target simple_service_server[0m
+[0.250s] [ 25%] Built target simple_parameter
+[0.251s] [ 75%] Built target simple_subscriber
+[0.252s] [ 75%] Built target simple_publisher
+[0.257s] [ 87%] [32mBuilding CXX object CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o[0m
+[0.260s] [01m[Kcc1plus:[m[K [01;31m[Kfatal error: [m[K/home/pbk/arduinobot_ws/src/arduinobot_cpp_examples/src/simple_service_server.cpp: No such file or directory
+[0.260s] compilation terminated.
+[0.261s] gmake[2]: *** [CMakeFiles/simple_service_server.dir/build.make:76: CMakeFiles/simple_service_server.dir/src/simple_service_server.cpp.o] Error 1
+[0.261s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/simple_service_server.dir/all] Error 2
+[0.261s] gmake: *** [Makefile:146: all] Error 2
+[0.264s] Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': AMENT_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20

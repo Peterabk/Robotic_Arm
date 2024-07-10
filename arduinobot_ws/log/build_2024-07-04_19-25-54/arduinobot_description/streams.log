@@ -1,0 +1,2 @@
+[0.019s] Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_description -- -j20 -l20
+[0.039s] Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_description -- -j20 -l20

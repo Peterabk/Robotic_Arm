@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        {
+            "browse": {
+                "databaseFilename": "${default}",
+                "limitSymbolsToIncludedHeaders": false
+            },
+            "includePath": [
+                "/home/pbk/arduinobot_ws/install/arduinobot_msgs/include/**",
+                "/opt/ros/humble/include/**",
+                "/home/pbk/arduinobot_ws/src/arduinobot_controller/include/**",
+                "/home/pbk/arduinobot_ws/src/arduinobot_cpp_examples/include/**",
+                "/home/pbk/arduinobot_ws/src/arduinobot_description/include/**",
+                "/home/pbk/arduinobot_ws/src/arduinobot_msgs/include/**",
+                "/usr/include/**",
+                "/opt/ros/humble/include/rclcpp",
+                "${workspaceFolder}/build/arduinobot_msgs/rosidl_generator_cpp",
+                "/opt/ros/humble/include/rcl",
+                "/opt/ros/humble/include/tf2"
+            ],
+            "name": "ROS",
+            "intelliSenseMode": "gcc-x64",
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "gnu11",
+            "cppStandard": "c++14"
+        }
+    ],
+    "version": 4
+}
