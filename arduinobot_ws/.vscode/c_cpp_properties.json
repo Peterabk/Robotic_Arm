@@ -16,7 +16,15 @@
                 "/opt/ros/humble/include/rclcpp",
                 "${workspaceFolder}/build/arduinobot_msgs/rosidl_generator_cpp",
                 "/opt/ros/humble/include/rcl",
-                "/opt/ros/humble/include/tf2"
+                "/opt/ros/humble/include/tf2",
+                "/opt/ros/humble/include/rcutils",
+                "/opt/ros/humble/include/rclcpp_action",
+                "/opt/ros/humble/include/rclcpp_components",
+                "/opt/ros/humble/include/rmw",
+                "/opt/ros/humble/include/rcl_action",
+                "/opt/ros/humble/include/class_loader",
+                "/opt/ros/humble/include/rcl_yaml_param_parser",
+                "/opt/ros/humble/include"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

@@ -1,0 +1,48 @@
+[0.044s] Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20
+[0.194s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.195s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.309s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.311s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.320s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.332s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.346s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.409s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.413s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.448s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.575s] -- Found arduinobot_msgs: 0.0.0 (/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/cmake)
+[0.678s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[0.699s] -- Found rclcpp_components: 16.0.8 (/opt/ros/humble/share/rclcpp_components/cmake)
+[0.753s] [31mCMake Error at CMakeLists.txt:49 (add_library):
+[0.753s]   add_library cannot create target "simple_action_client" because another
+[0.753s]   target with the same name already exists.  The existing target is a shared
+[0.753s]   library created in source directory
+[0.753s]   "/home/pbk/arduinobot_ws/src/arduinobot_cpp_examples".  See documentation
+[0.753s]   for policy CMP0002 for more details.
+[0.753s] 
+[0.753s] [0m
+[0.753s] [31mCMake Error at /opt/ros/humble/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:72 (add_executable):
+[0.753s]   add_executable cannot create target "simple_action_client_node" because
+[0.753s]   another target with the same name already exists.  The existing target is
+[0.754s]   an executable created in source directory
+[0.754s]   "/home/pbk/arduinobot_ws/src/arduinobot_cpp_examples".  See documentation
+[0.754s]   for policy CMP0002 for more details.
+[0.754s] Call Stack (most recent call first):
+[0.754s]   CMakeLists.txt:61 (rclcpp_components_register_node)
+[0.754s] 
+[0.754s] [0m
+[0.754s] [31mCMake Error at CMakeLists.txt:73 (install):
+[0.754s]   install TARGETS given target "simple_action_server" which does not exist.
+[0.754s] 
+[0.754s] [0m
+[0.754s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.812s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.812s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/pbk/arduinobot_ws/src/arduinobot_cpp_examples/include>
+[0.813s] -- Configured cppcheck exclude dirs and/or files: 
+[0.813s] -- Added test 'lint_cmake' to check CMake code style
+[0.814s] -- Added test 'uncrustify' to check C / C++ code style
+[0.814s] -- Configured uncrustify additional arguments: 
+[0.814s] -- Added test 'xmllint' to check XML markup files
+[0.816s] -- Configuring incomplete, errors occurred!
+[0.817s] See also "/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples/CMakeFiles/CMakeOutput.log".
+[0.822s] gmake: *** [Makefile:513: cmake_check_build_system] Error 1
+[0.824s] Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples' returned '2': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20

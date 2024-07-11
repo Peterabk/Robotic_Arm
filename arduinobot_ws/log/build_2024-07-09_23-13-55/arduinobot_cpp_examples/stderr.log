@@ -1,0 +1,6 @@
+[31mCMake Error at CMakeLists.txt:59 (install):
+  install TARGETS given target "simple_simple_action_server" which does not
+  exist.
+
+[0m
+gmake: *** [Makefile:431: cmake_check_build_system] Error 1
