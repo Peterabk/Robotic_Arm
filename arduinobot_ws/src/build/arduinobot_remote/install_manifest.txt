@@ -1,0 +1,15 @@
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/ament_index/resource_index/package_run_dependencies/arduinobot_remote
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/ament_index/resource_index/parent_prefix_path/arduinobot_remote
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.sh
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/environment/ament_prefix_path.dsv
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/environment/path.sh
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/environment/path.dsv
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/local_setup.bash
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/local_setup.sh
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/local_setup.zsh
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/local_setup.dsv
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/package.dsv
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/ament_index/resource_index/packages/arduinobot_remote
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig.cmake
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/cmake/arduinobot_remoteConfig-version.cmake
+/home/pbk/arduinobot_ws/src/install/arduinobot_remote/share/arduinobot_remote/package.xml

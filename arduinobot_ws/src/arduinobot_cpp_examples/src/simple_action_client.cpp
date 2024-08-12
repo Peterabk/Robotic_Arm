@@ -56,7 +56,7 @@ class SimpleActionClient : public rclcpp::Node{
             }
         }
 
-        void FeedbackeCallback(const rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::SharedPtr& goal_handle, 
+        void FeedbackeCallback(rclcpp_action::ClientGoalHandle<arduinobot_msgs::action::Fibonacci>::SharedPtr, 
                                 const std::shared_ptr<const arduinobot_msgs::action::Fibonacci::Feedback> feedback){
 
             std::stringstream ss;

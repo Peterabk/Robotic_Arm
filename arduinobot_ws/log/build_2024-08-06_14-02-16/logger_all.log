@@ -1,0 +1,740 @@
+[0.184s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.184s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f57af012050>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f57af1ffac0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f57af1ffac0>>, mixin_verb=('build',))
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.410s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pbk/arduinobot_ws'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.433s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.434s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.435s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'ignore'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'ignore_ament_install'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extensions ['colcon_pkg']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'colcon_pkg'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extensions ['colcon_meta']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'colcon_meta'
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extensions ['ros']
+[0.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_bringup) by extension 'ros'
+[0.438s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_bringup' with type 'ros.ament_cmake' and name 'arduinobot_bringup'
+[0.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ignore'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ignore_ament_install'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['colcon_pkg']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'colcon_pkg'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['colcon_meta']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'colcon_meta'
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extensions ['ros']
+[0.439s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_controller) by extension 'ros'
+[0.440s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_controller' with type 'ros.ament_cmake' and name 'arduinobot_controller'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'ignore'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'ignore_ament_install'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extensions ['colcon_pkg']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'colcon_pkg'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extensions ['colcon_meta']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'colcon_meta'
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extensions ['ros']
+[0.440s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_cpp_examples) by extension 'ros'
+[0.441s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_cpp_examples' with type 'ros.ament_cmake' and name 'arduinobot_cpp_examples'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ignore'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ignore_ament_install'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['colcon_pkg']
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'colcon_pkg'
+[0.441s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_description) by extension 'ros'
+[0.442s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_description' with type 'ros.ament_cmake' and name 'arduinobot_description'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extensions ['ignore', 'ignore_ament_install']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'ignore'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'ignore_ament_install'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extensions ['colcon_pkg']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'colcon_pkg'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extensions ['colcon_meta']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'colcon_meta'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extensions ['ros']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_firmware) by extension 'ros'
+[0.443s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_firmware' with type 'ros.ament_cmake' and name 'arduinobot_firmware'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extensions ['ros']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_moveit) by extension 'ros'
+[0.444s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_moveit' with type 'ros.ament_cmake' and name 'arduinobot_moveit'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'ignore'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'ignore_ament_install'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extensions ['colcon_pkg']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'colcon_pkg'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extensions ['colcon_meta']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'colcon_meta'
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_msgs) by extension 'ros'
+[0.445s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_msgs' with type 'ros.ament_cmake' and name 'arduinobot_msgs'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extensions ['ignore', 'ignore_ament_install']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'ignore'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'ignore_ament_install'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extensions ['colcon_pkg']
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'colcon_pkg'
+[0.445s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extensions ['colcon_meta']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'colcon_meta'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extensions ['ros']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_py_examples) by extension 'ros'
+[0.446s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_py_examples' with type 'ros.ament_python' and name 'arduinobot_py_examples'
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extensions ['ignore', 'ignore_ament_install']
+[0.446s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'colcon_pkg'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extensions ['colcon_meta']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'colcon_meta'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extensions ['ros']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_remote) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_remote' with type 'ros.ament_cmake' and name 'arduinobot_remote'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extensions ['ignore', 'ignore_ament_install']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'ignore'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'ignore_ament_install'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extensions ['colcon_pkg']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(src/arduinobot_utils) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package 'src/arduinobot_utils' with type 'ros.ament_cmake' and name 'arduinobot_utils'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.449s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.450s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.450s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.485s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.492s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/pbk/arduinobot_ws/install
+[0.493s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 360 installed packages in /opt/ros/humble
+[0.494s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'cmake_target' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_bringup', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_target' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.563s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.563s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_controller', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_controller', 'symlink_install': False, 'test_result_base': None}
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.564s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_description', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_description', 'symlink_install': False, 'test_result_base': None}
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'cmake_force_configure' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'ament_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'catkin_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_firmware' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.564s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_firmware' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_firmware', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_firmware', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_firmware', 'symlink_install': False, 'test_result_base': None}
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_target' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_clean_cache' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_clean_first' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'cmake_force_configure' from command line to 'False'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'ament_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'catkin_cmake_args' from command line to 'None'
+[0.564s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_moveit' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.564s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_moveit' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_moveit', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_moveit', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_moveit', 'symlink_install': False, 'test_result_base': None}
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'cmake_target' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_msgs', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_target' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_cpp_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_cpp_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_cpp_examples', 'symlink_install': False, 'test_result_base': None}
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_target' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_clean_cache' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_clean_first' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'cmake_force_configure' from command line to 'False'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'ament_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'catkin_cmake_args' from command line to 'None'
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_py_examples' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.565s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_py_examples' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_py_examples', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_py_examples', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_py_examples', 'symlink_install': False, 'test_result_base': None}
+[0.565s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_remote' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_remote' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_remote', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_remote', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_remote', 'symlink_install': False, 'test_result_base': None}
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'cmake_target' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'cmake_clean_cache' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'cmake_clean_first' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'cmake_force_configure' from command line to 'False'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'ament_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'catkin_cmake_args' from command line to 'None'
+[0.566s] Level 5:colcon.colcon_core.verb:set package 'arduinobot_utils' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.566s] DEBUG:colcon.colcon_core.verb:Building package 'arduinobot_utils' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pbk/arduinobot_ws/build/arduinobot_utils', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pbk/arduinobot_ws/install/arduinobot_utils', 'merge_install': False, 'path': '/home/pbk/arduinobot_ws/src/arduinobot_utils', 'symlink_install': False, 'test_result_base': None}
+[0.566s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.567s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.567s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_msgs' with build type 'ament_cmake'
+[0.567s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_msgs'
+[0.572s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.572s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.572s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.575s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_bringup' with build type 'ament_cmake'
+[0.575s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_bringup'
+[0.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.585s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_controller' with build type 'ament_cmake'
+[0.586s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_controller'
+[0.586s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.586s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.589s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_description' with build type 'ament_cmake'
+[0.589s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_description'
+[0.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.593s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_firmware' with build type 'ament_cmake'
+[0.593s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_firmware'
+[0.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.596s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_moveit' with build type 'ament_cmake'
+[0.597s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_moveit'
+[0.597s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.597s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_msgs -- -j20 -l20
+[0.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_bringup -- -j20 -l20
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_controller -- -j20 -l20
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_description -- -j20 -l20
+[0.627s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_firmware -- -j20 -l20
+[0.636s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_moveit -- -j20 -l20
+[0.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_bringup -- -j20 -l20
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_description -- -j20 -l20
+[0.659s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_moveit -- -j20 -l20
+[0.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_bringup
+[0.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_description
+[0.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_moveit': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_moveit
+[0.701s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_bringup)
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_bringup
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup' for CMake module files
+[0.722s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup' for CMake config files
+[0.722s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_bringup', 'cmake_prefix_path')
+[0.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/hook/cmake_prefix_path.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/hook/cmake_prefix_path.dsv'
+[0.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/hook/cmake_prefix_path.sh'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup/bin'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup/lib/pkgconfig/arduinobot_bringup.pc'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup/lib/python3.10/site-packages'
+[0.725s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup/bin'
+[0.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.dsv'
+[0.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.sh'
+[0.727s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.bash'
+[0.728s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.zsh'
+[0.729s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/colcon-core/packages/arduinobot_bringup)
+[0.732s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_description)
+[0.732s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_description
+[0.732s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description' for CMake module files
+[0.733s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description' for CMake config files
+[0.734s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_description', 'cmake_prefix_path')
+[0.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.ps1'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.dsv'
+[0.735s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.sh'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description/bin'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description/lib/pkgconfig/arduinobot_description.pc'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description/lib/python3.10/site-packages'
+[0.736s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description/bin'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.ps1'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.sh'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.bash'
+[0.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.zsh'
+[0.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_description/share/colcon-core/packages/arduinobot_description)
+[0.740s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_moveit)
+[0.741s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit' for CMake module files
+[0.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_moveit' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_moveit
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit' for CMake config files
+[0.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_moveit', 'cmake_prefix_path')
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.ps1'
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.dsv'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.sh'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit/bin'
+[0.746s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit/lib/pkgconfig/arduinobot_moveit.pc'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit/lib/python3.10/site-packages'
+[0.747s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit/bin'
+[0.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.ps1'
+[0.748s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.dsv'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.sh'
+[0.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.bash'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.zsh'
+[0.751s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/colcon-core/packages/arduinobot_moveit)
+[0.754s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_bringup)
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup' for CMake module files
+[0.754s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup' for CMake config files
+[0.754s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_bringup', 'cmake_prefix_path')
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/hook/cmake_prefix_path.ps1'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/hook/cmake_prefix_path.dsv'
+[0.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/hook/cmake_prefix_path.sh'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup/bin'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup/lib/pkgconfig/arduinobot_bringup.pc'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup/lib/python3.10/site-packages'
+[0.756s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_bringup/bin'
+[0.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.ps1'
+[0.758s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.dsv'
+[0.759s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.sh'
+[0.760s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.bash'
+[0.761s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/arduinobot_bringup/package.zsh'
+[0.761s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_bringup/share/colcon-core/packages/arduinobot_bringup)
+[0.764s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_description)
+[0.764s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description' for CMake module files
+[0.765s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description' for CMake config files
+[0.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_description', 'cmake_prefix_path')
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.ps1'
+[0.765s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.dsv'
+[0.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/hook/cmake_prefix_path.sh'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description/bin'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description/lib/pkgconfig/arduinobot_description.pc'
+[0.766s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description/lib/python3.10/site-packages'
+[0.767s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_description/bin'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.ps1'
+[0.767s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.dsv'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.sh'
+[0.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.bash'
+[0.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_description/share/arduinobot_description/package.zsh'
+[0.769s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_description/share/colcon-core/packages/arduinobot_description)
+[0.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_moveit)
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit' for CMake module files
+[0.773s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit' for CMake config files
+[0.774s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_moveit', 'cmake_prefix_path')
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.ps1'
+[0.774s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.dsv'
+[0.775s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/hook/cmake_prefix_path.sh'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit/bin'
+[0.775s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit/lib/pkgconfig/arduinobot_moveit.pc'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit/lib/python3.10/site-packages'
+[0.776s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_moveit/bin'
+[0.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.ps1'
+[0.777s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.dsv'
+[0.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.sh'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.bash'
+[0.779s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/arduinobot_moveit/package.zsh'
+[0.780s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_moveit/share/colcon-core/packages/arduinobot_moveit)
+[0.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_firmware -- -j20 -l20
+[0.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_msgs -- -j20 -l20
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_firmware
+[0.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_firmware)
+[0.998s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware' for CMake module files
+[0.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_firmware
+[0.999s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware' for CMake config files
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_firmware', 'cmake_prefix_path')
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/hook/cmake_prefix_path.ps1'
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/hook/cmake_prefix_path.dsv'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/hook/cmake_prefix_path.sh'
+[1.001s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/lib'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/bin'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/pkgconfig/arduinobot_firmware.pc'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/python3.10/site-packages'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/bin'
+[1.002s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.ps1'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.sh'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.bash'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.zsh'
+[1.004s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/colcon-core/packages/arduinobot_firmware)
+[1.024s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_firmware)
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware' for CMake module files
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware' for CMake config files
+[1.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_firmware', 'cmake_prefix_path')
+[1.026s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/hook/cmake_prefix_path.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/hook/cmake_prefix_path.dsv'
+[1.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/hook/cmake_prefix_path.sh'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/lib'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/bin'
+[1.028s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/pkgconfig/arduinobot_firmware.pc'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/python3.10/site-packages'
+[1.029s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_firmware/bin'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.ps1'
+[1.029s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.sh'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.bash'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.zsh'
+[1.030s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_firmware/share/colcon-core/packages/arduinobot_firmware)
+[1.043s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_msgs
+[1.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_msgs)
+[1.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_msgs
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs' for CMake module files
+[1.103s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs' for CMake config files
+[1.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_msgs', 'cmake_prefix_path')
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/cmake_prefix_path.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/cmake_prefix_path.dsv'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/cmake_prefix_path.sh'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib'
+[1.106s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_msgs', 'ld_library_path_lib')
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/ld_library_path_lib.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/ld_library_path_lib.dsv'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/ld_library_path_lib.sh'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/bin'
+[1.107s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib/pkgconfig/arduinobot_msgs.pc'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib/python3.10/site-packages'
+[1.108s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/bin'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.ps1'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.sh'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.bash'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.zsh'
+[1.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/colcon-core/packages/arduinobot_msgs)
+[1.192s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_msgs)
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs' for CMake module files
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs' for CMake config files
+[1.193s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_msgs', 'cmake_prefix_path')
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/cmake_prefix_path.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/cmake_prefix_path.dsv'
+[1.193s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/cmake_prefix_path.sh'
+[1.194s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib'
+[1.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_msgs', 'ld_library_path_lib')
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/ld_library_path_lib.ps1'
+[1.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/ld_library_path_lib.dsv'
+[1.195s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/hook/ld_library_path_lib.sh'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/bin'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib/pkgconfig/arduinobot_msgs.pc'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib/python3.10/site-packages'
+[1.195s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_msgs/bin'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.ps1'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.dsv'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.sh'
+[1.196s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.bash'
+[1.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/arduinobot_msgs/package.zsh'
+[1.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_msgs/share/colcon-core/packages/arduinobot_msgs)
+[1.197s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_cpp_examples' with build type 'ament_cmake'
+[1.197s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_cpp_examples'
+[1.198s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.198s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.201s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_py_examples' with build type 'ament_python'
+[1.201s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_py_examples', 'ament_prefix_path')
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.ps1'
+[1.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.dsv'
+[1.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/ament_prefix_path.sh'
+[1.204s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.204s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.209s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_remote' with build type 'ament_cmake'
+[1.209s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_remote'
+[1.210s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.210s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.213s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pbk/arduinobot_ws/src/arduinobot_utils' with build type 'ament_cmake'
+[1.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pbk/arduinobot_ws/src/arduinobot_utils'
+[1.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.214s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_remote -- -j20 -l20
+[1.263s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20
+[1.454s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pbk/arduinobot_ws/src/arduinobot_py_examples'
+[1.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_utils -- -j20 -l20
+[1.470s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples -- -j20 -l20
+[1.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples
+[1.534s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_cpp_examples)
+[1.535s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples' for CMake module files
+[1.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_cpp_examples' returned '0': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_cpp_examples
+[1.536s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples' for CMake config files
+[1.536s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_cpp_examples', 'cmake_prefix_path')
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.sh'
+[1.538s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib'
+[1.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_cpp_examples', 'ld_library_path_lib')
+[1.538s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/ld_library_path_lib.ps1'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/ld_library_path_lib.dsv'
+[1.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/ld_library_path_lib.sh'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/bin'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib/pkgconfig/arduinobot_cpp_examples.pc'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib/python3.10/site-packages'
+[1.540s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/bin'
+[1.540s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.ps1'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.sh'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.bash'
+[1.541s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.zsh'
+[1.542s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/colcon-core/packages/arduinobot_cpp_examples)
+[1.553s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_remote -- -j20 -l20
+[1.576s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_remote': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_remote
+[1.587s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_cpp_examples)
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples' for CMake module files
+[1.587s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples' for CMake config files
+[1.588s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_cpp_examples', 'cmake_prefix_path')
+[1.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.ps1'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.dsv'
+[1.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/cmake_prefix_path.sh'
+[1.590s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib'
+[1.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_cpp_examples', 'ld_library_path_lib')
+[1.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/ld_library_path_lib.ps1'
+[1.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/ld_library_path_lib.dsv'
+[1.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/hook/ld_library_path_lib.sh'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/bin'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib/pkgconfig/arduinobot_cpp_examples.pc'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib/python3.10/site-packages'
+[1.591s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/bin'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.ps1'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.dsv'
+[1.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.sh'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.bash'
+[1.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/arduinobot_cpp_examples/package.zsh'
+[1.593s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/share/colcon-core/packages/arduinobot_cpp_examples)
+[1.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_remote)
+[1.619s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote' for CMake module files
+[1.619s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_remote' returned '0': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_remote
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote' for CMake config files
+[1.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_remote', 'cmake_prefix_path')
+[1.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.ps1'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.dsv'
+[1.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.sh'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/lib'
+[1.622s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_remote', 'ld_library_path_lib')
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.ps1'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.dsv'
+[1.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.sh'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/bin'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/lib/pkgconfig/arduinobot_remote.pc'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/lib/python3.10/site-packages'
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/bin'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.ps1'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.dsv'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.sh'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.bash'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.zsh'
+[1.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_remote/share/colcon-core/packages/arduinobot_remote)
+[1.649s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_remote)
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote' for CMake module files
+[1.649s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote' for CMake config files
+[1.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_remote', 'cmake_prefix_path')
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.ps1'
+[1.650s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.dsv'
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/cmake_prefix_path.sh'
+[1.651s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/lib'
+[1.651s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_remote', 'ld_library_path_lib')
+[1.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.ps1'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.dsv'
+[1.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/hook/ld_library_path_lib.sh'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/bin'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/lib/pkgconfig/arduinobot_remote.pc'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/lib/python3.10/site-packages'
+[1.652s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_remote/bin'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.ps1'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.dsv'
+[1.653s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.sh'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.bash'
+[1.654s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_remote/share/arduinobot_remote/package.zsh'
+[1.654s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_remote/share/colcon-core/packages/arduinobot_remote)
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_utils -- -j20 -l20
+[1.747s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_utils
+[1.793s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_utils)
+[1.793s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils' for CMake module files
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_utils' returned '0': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_utils
+[1.795s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils' for CMake config files
+[1.796s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_utils', 'cmake_prefix_path')
+[1.796s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/hook/cmake_prefix_path.ps1'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/hook/cmake_prefix_path.dsv'
+[1.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/hook/cmake_prefix_path.sh'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/lib'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/bin'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/lib/pkgconfig/arduinobot_utils.pc'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/lib/python3.10/site-packages'
+[1.798s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/bin'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.ps1'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.dsv'
+[1.799s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.sh'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.bash'
+[1.800s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.zsh'
+[1.800s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_utils/share/colcon-core/packages/arduinobot_utils)
+[1.819s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_utils)
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils' for CMake module files
+[1.819s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils' for CMake config files
+[1.819s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_utils', 'cmake_prefix_path')
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/hook/cmake_prefix_path.ps1'
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/hook/cmake_prefix_path.dsv'
+[1.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/hook/cmake_prefix_path.sh'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/lib'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/bin'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/lib/pkgconfig/arduinobot_utils.pc'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/lib/python3.10/site-packages'
+[1.821s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_utils/bin'
+[1.821s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.ps1'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.dsv'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.sh'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.bash'
+[1.822s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_utils/share/arduinobot_utils/package.zsh'
+[1.823s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_utils/share/colcon-core/packages/arduinobot_utils)
+[1.855s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/src/arduinobot_py_examples': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pbk/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/pbk/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/pbk/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/pbk/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_py_examples' for CMake module files
+[2.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/src/arduinobot_py_examples' returned '0': CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs:/home/pbk/arduinobot_ws/install/arduinobot_utils:/home/pbk/arduinobot_ws/install/arduinobot_remote:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples:/home/pbk/arduinobot_ws/install/arduinobot_moveit:/home/pbk/arduinobot_ws/install/arduinobot_firmware:/home/pbk/arduinobot_ws/install/arduinobot_description:/home/pbk/arduinobot_ws/install/arduinobot_controller:/home/pbk/arduinobot_ws/install/arduinobot_bringup LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/install/arduinobot_msgs/lib:/home/pbk/arduinobot_ws/install/arduinobot_remote/lib:/home/pbk/arduinobot_ws/install/arduinobot_cpp_examples/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib PYTHONPATH=/home/pbk/arduinobot_ws/build/arduinobot_py_examples/prefix_override:/home/pbk/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/arduinobot_py_examples build --build-base /home/pbk/arduinobot_ws/build/arduinobot_py_examples/build install --record /home/pbk/arduinobot_ws/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[2.076s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_py_examples' for CMake config files
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/lib'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/bin'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/lib/pkgconfig/arduinobot_py_examples.pc'
+[2.077s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/lib/python3.10/site-packages'
+[2.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_py_examples', 'pythonpath')
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath.ps1'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath.dsv'
+[2.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/hook/pythonpath.sh'
+[2.079s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/bin'
+[2.079s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_py_examples)
+[2.079s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/package.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/package.dsv'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/package.sh'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/package.bash'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/arduinobot_py_examples/package.zsh'
+[2.081s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_py_examples/share/colcon-core/packages/arduinobot_py_examples)
+[6.808s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_controller -- -j20 -l20
+[6.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_controller
+[6.836s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_controller)
+[6.837s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller' for CMake module files
+[6.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_controller
+[6.837s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller' for CMake config files
+[6.837s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_controller', 'cmake_prefix_path')
+[6.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.ps1'
+[6.838s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.dsv'
+[6.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.sh'
+[6.839s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/lib'
+[6.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_controller', 'ld_library_path_lib')
+[6.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/ld_library_path_lib.ps1'
+[6.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/ld_library_path_lib.dsv'
+[6.839s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/ld_library_path_lib.sh'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/bin'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/lib/pkgconfig/arduinobot_controller.pc'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/lib/python3.10/site-packages'
+[6.840s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/bin'
+[6.840s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.ps1'
+[6.841s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv'
+[6.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.sh'
+[6.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.bash'
+[6.841s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.zsh'
+[6.842s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_controller/share/colcon-core/packages/arduinobot_controller)
+[6.859s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(arduinobot_controller)
+[6.859s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller' for CMake module files
+[6.859s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller' for CMake config files
+[6.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_controller', 'cmake_prefix_path')
+[6.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.ps1'
+[6.860s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.dsv'
+[6.860s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/cmake_prefix_path.sh'
+[6.860s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/lib'
+[6.860s] Level 1:colcon.colcon_core.shell:create_environment_hook('arduinobot_controller', 'ld_library_path_lib')
+[6.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/ld_library_path_lib.ps1'
+[6.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/ld_library_path_lib.dsv'
+[6.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/hook/ld_library_path_lib.sh'
+[6.861s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/bin'
+[6.861s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/lib/pkgconfig/arduinobot_controller.pc'
+[6.861s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/lib/python3.10/site-packages'
+[6.861s] Level 1:colcon.colcon_core.environment:checking '/home/pbk/arduinobot_ws/install/arduinobot_controller/bin'
+[6.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.ps1'
+[6.862s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.dsv'
+[6.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.sh'
+[6.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.bash'
+[6.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/pbk/arduinobot_ws/install/arduinobot_controller/share/arduinobot_controller/package.zsh'
+[6.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pbk/arduinobot_ws/install/arduinobot_controller/share/colcon-core/packages/arduinobot_controller)
+[6.863s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.863s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.864s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.864s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.898s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[6.898s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.898s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.898s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.899s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.FileNotFound: Failed to connect to socket /run/user/1000/bus: No such file or directory
+[6.899s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.899s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pbk/arduinobot_ws/install/local_setup.ps1'
+[6.900s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pbk/arduinobot_ws/install/_local_setup_util_ps1.py'
+[6.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pbk/arduinobot_ws/install/setup.ps1'
+[6.902s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pbk/arduinobot_ws/install/local_setup.sh'
+[6.902s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pbk/arduinobot_ws/install/_local_setup_util_sh.py'
+[6.903s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pbk/arduinobot_ws/install/setup.sh'
+[6.904s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pbk/arduinobot_ws/install/local_setup.bash'
+[6.904s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pbk/arduinobot_ws/install/setup.bash'
+[6.905s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pbk/arduinobot_ws/install/local_setup.zsh'
+[6.906s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pbk/arduinobot_ws/install/setup.zsh'

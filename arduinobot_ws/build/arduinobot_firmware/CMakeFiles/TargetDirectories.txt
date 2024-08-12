@@ -1,0 +1,13 @@
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/uninstall.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/arduinobot_firmware_uninstall.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/ament_cmake_python_copy_arduinobot_firmware.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/ament_cmake_python_build_arduinobot_firmware_egg.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/simple_serial_transmitter.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/simple_serial_receiver.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/test.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/edit_cache.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/rebuild_cache.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/list_install_components.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install/local.dir
+/home/pbk/arduinobot_ws/build/arduinobot_firmware/CMakeFiles/install/strip.dir

@@ -1,0 +1,33 @@
+[0.562s] Invoking command in '/home/pbk/arduinobot_ws/src/arduinobot_py_examples': AMENT_PREFIX_PATH=/home/pbk/arduinobot_ws/src/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/src/install/arduinobot_msgs LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/src/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/prefix_override:/home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/pbk/arduinobot_ws/src/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/build install --record /home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data
+[0.687s] running egg_info
+[0.688s] writing ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/PKG-INFO
+[0.689s] writing dependency_links to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/dependency_links.txt
+[0.689s] writing entry points to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/entry_points.txt
+[0.689s] writing requirements to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/requires.txt
+[0.689s] writing top-level names to ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/top_level.txt
+[0.690s] reading manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.691s] writing manifest file '../build/arduinobot_py_examples/arduinobot_py_examples.egg-info/SOURCES.txt'
+[0.691s] running build
+[0.691s] running build_py
+[0.691s] copying arduinobot_py_examples/simple_action_client.py -> /home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.692s] copying arduinobot_py_examples/simple_action_server.py -> /home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples
+[0.692s] running install
+[0.692s] running install_lib
+[0.693s] copying /home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_action_client.py -> /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.693s] copying /home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/build/lib/arduinobot_py_examples/simple_action_server.py -> /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples
+[0.694s] byte-compiling /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_action_client.py to simple_action_client.cpython-310.pyc
+[0.694s] byte-compiling /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples/simple_action_server.py to simple_action_server.cpython-310.pyc
+[0.694s] running install_data
+[0.695s] running install_egg_info
+[0.696s] removing '/home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info' (and everything under it)
+[0.696s] Copying ../build/arduinobot_py_examples/arduinobot_py_examples.egg-info to /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages/arduinobot_py_examples-0.0.0-py3.10.egg-info
+[0.697s] running install_scripts
+[0.710s] Installing simple_action_client script to /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.710s] Installing simple_action_server script to /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.711s] Installing simple_parameter script to /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.711s] Installing simple_publisher script to /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.711s] Installing simple_service_client script to /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.711s] Installing simple_service_server script to /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.711s] Installing simple_subscriber script to /home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/arduinobot_py_examples
+[0.711s] writing list of installed files to '/home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/install.log'
+[0.726s] Invoked command in '/home/pbk/arduinobot_ws/src/arduinobot_py_examples' returned '0': AMENT_PREFIX_PATH=/home/pbk/arduinobot_ws/src/install/arduinobot_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/pbk/arduinobot_ws/src/install/arduinobot_msgs LD_LIBRARY_PATH=/home/pbk/arduinobot_ws/src/install/arduinobot_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/prefix_override:/home/pbk/arduinobot_ws/src/install/arduinobot_py_examples/lib/python3.10/site-packages:/home/pbk/arduinobot_ws/src/install/arduinobot_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/arduinobot_py_examples build --build-base /home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/build install --record /home/pbk/arduinobot_ws/src/build/arduinobot_py_examples/install.log --single-version-externally-managed install_data

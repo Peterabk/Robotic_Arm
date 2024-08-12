@@ -24,7 +24,16 @@
                 "/opt/ros/humble/include/rcl_action",
                 "/opt/ros/humble/include/class_loader",
                 "/opt/ros/humble/include/rcl_yaml_param_parser",
-                "/opt/ros/humble/include"
+                "/opt/ros/humble/include",
+                "/opt/ros/humble/include/rosidl_runtime_c",
+                "/opt/ros/humble/include/urdf",
+                "/opt/ros/humble/include/rosidl_typesupport_interface",
+                "/opt/ros/humble/include/rcpputils",
+                "/opt/ros/humble/include/builtin_interfaces",
+                "/opt/ros/humble/include/std_msgs",
+                "/opt/ros/humble/include/lifecycle_msgs",
+                "${workspaceFolder}/src",
+                "/opt/ros/humble/include/pluginlib"
             ],
             "name": "ROS",
             "intelliSenseMode": "gcc-x64",

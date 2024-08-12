@@ -1,0 +1,35 @@
+[0.028s] Invoking command in '/home/pbk/Robotic_Arm/arduinobot_ws/build/arduinobot_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/Robotic_Arm/arduinobot_ws/build/arduinobot_controller -- -j20 -l20
+[0.040s] [0mCMake Error: The current CMakeCache.txt directory /home/pbk/Robotic_Arm/arduinobot_ws/build/arduinobot_controller/CMakeCache.txt is different than the directory /home/pbk/arduinobot_ws/build/arduinobot_controller where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt[0m
+[0.047s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.184s] -- Found hardware_interface: 2.40.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.309s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.309s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.309s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.315s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.327s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.942s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.944s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[1.989s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.317s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.432s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.433s] -- Configured cppcheck include dirs: /home/pbk/arduinobot_ws/src/arduinobot_controller/include;/home/pbk/arduinobot_ws/src/arduinobot_controller/
+[2.433s] -- Configured cppcheck exclude dirs and/or files: 
+[2.433s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.434s] -- Added test 'lint_cmake' to check CMake code style
+[2.434s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.435s] -- Added test 'uncrustify' to check C / C++ code style
+[2.435s] -- Configured uncrustify additional arguments: 
+[2.435s] -- Added test 'xmllint' to check XML markup files
+[2.436s] -- Configuring done
+[2.458s] -- Generating done
+[2.460s] -- Build files have been written to: /home/pbk/arduinobot_ws/build/arduinobot_controller
+[2.500s] [35m[1mConsolidate compiler generated dependencies of target arduinobot_controller[0m
+[2.519s] [ 50%] [32mBuilding CXX object CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o[0m
+[2.529s] [01m[K/home/pbk/arduinobot_ws/src/arduinobot_controller/src/arduinobot_interface.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Karduinobot_interface.hpp: No such file or directory
+[2.529s]     1 | #include [01;31m[K"arduinobot_interface.hpp"[m[K
+[2.529s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.529s] compilation terminated.
+[2.530s] gmake[2]: *** [CMakeFiles/arduinobot_controller.dir/build.make:76: CMakeFiles/arduinobot_controller.dir/src/arduinobot_interface.cpp.o] Error 1
+[2.531s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/arduinobot_controller.dir/all] Error 2
+[2.531s] gmake: *** [Makefile:146: all] Error 2
+[2.535s] Invoked command in '/home/pbk/Robotic_Arm/arduinobot_ws/build/arduinobot_controller' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/Robotic_Arm/arduinobot_ws/build/arduinobot_controller -- -j20 -l20

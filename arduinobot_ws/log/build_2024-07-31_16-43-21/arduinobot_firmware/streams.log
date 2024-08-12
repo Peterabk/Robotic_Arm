@@ -1,0 +1,50 @@
+[0.023s] Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_firmware -- -j20 -l20
+[0.055s] [35m[1mConsolidate compiler generated dependencies of target simple_serial_receiver[0m
+[0.070s] [ 50%] Built target simple_serial_transmitter
+[0.072s] [ 50%] Built target ament_cmake_python_copy_arduinobot_firmware
+[0.076s] [ 75%] [32mBuilding CXX object CMakeFiles/simple_serial_receiver.dir/src/simple_serial_receiver.cpp.o[0m
+[0.240s] running egg_info
+[0.240s] writing arduinobot_firmware.egg-info/PKG-INFO
+[0.241s] writing dependency_links to arduinobot_firmware.egg-info/dependency_links.txt
+[0.241s] writing top-level names to arduinobot_firmware.egg-info/top_level.txt
+[0.243s] reading manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[0.244s] writing manifest file 'arduinobot_firmware.egg-info/SOURCES.txt'
+[0.266s] [ 75%] Built target ament_cmake_python_build_arduinobot_firmware_egg
+[3.786s] [100%] [32m[1mLinking CXX executable simple_serial_receiver[0m
+[3.961s] [100%] Built target simple_serial_receiver
+[3.969s] Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_firmware -- -j20 -l20
+[3.987s] Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_firmware': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_firmware
+[3.991s] -- Install configuration: ""
+[3.991s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.sh
+[3.991s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/pythonpath.dsv
+[3.991s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info
+[3.991s] -- Installing: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/top_level.txt
+[3.991s] -- Installing: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/PKG-INFO
+[3.991s] -- Installing: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.991s] -- Installing: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.992s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware
+[3.992s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_transmitter.py
+[3.992s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/__init__.py
+[3.992s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware/simple_serial_receiver.py
+[4.013s] Listing '/home/pbk/arduinobot_ws/install/arduinobot_firmware/local/lib/python3.10/dist-packages/arduinobot_firmware'...
+[4.017s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter
+[4.017s] -- Installing: /home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver
+[4.018s] -- Set runtime path of "/home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver" to ""
+[4.018s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_transmitter.py
+[4.018s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/lib/arduinobot_firmware/simple_serial_receiver.py
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/package_run_dependencies/arduinobot_firmware
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/parent_prefix_path/arduinobot_firmware
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.sh
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/ament_prefix_path.dsv
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.sh
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/environment/path.dsv
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.bash
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.sh
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.zsh
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/local_setup.dsv
+[4.019s] -- Installing: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.dsv
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/ament_index/resource_index/packages/arduinobot_firmware
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig.cmake
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/cmake/arduinobot_firmwareConfig-version.cmake
+[4.019s] -- Up-to-date: /home/pbk/arduinobot_ws/install/arduinobot_firmware/share/arduinobot_firmware/package.xml
+[4.021s] Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_firmware' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --install /home/pbk/arduinobot_ws/build/arduinobot_firmware
