@@ -1,5 +1,0 @@
-[0.021s] Invoking command in '/home/pbk/arduinobot_ws/build/arduinobot_utils': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_utils -- -j20 -l20
-[0.031s] [0mCMake Error: The source directory "/home/pbk/arduinobot_ws/arduinobot_utils" does not exist.
-[0.031s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[0.031s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
-[0.034s] Invoked command in '/home/pbk/arduinobot_ws/build/arduinobot_utils' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pbk/arduinobot_ws/install/arduinobot_py_examples:/opt/ros/humble /usr/bin/cmake --build /home/pbk/arduinobot_ws/build/arduinobot_utils -- -j20 -l20

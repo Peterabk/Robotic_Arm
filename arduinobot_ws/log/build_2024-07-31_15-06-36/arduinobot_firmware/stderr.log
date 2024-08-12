@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:25 (install):
-  install TARGETS given target "ARCHIVE_DESTINATION" which does not exist.
-
-[0m
-gmake: *** [Makefile:254: cmake_check_build_system] Error 1
